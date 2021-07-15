@@ -1,0 +1,168 @@
+/*-------- fonts -------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/*==================
+common styles
+====================*/
+
+/* removing brower's default margin padding */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+
+
+/*------- top area design --------*/
+.top-container{
+    display: flex;
+    background-color: #2D25A0;
+    padding-left: 156px;
+    padding-top: 49px;
+    margin-bottom: 70px;
+}
+
+.top-intro{
+    width: 40%;
+}
+.top-intro h1{
+    font-size: 64px;
+    font-weight: bold;
+    margin-top: 72px;
+    margin-bottom: 27px;
+    color: #FFFFFF;
+}
+.anchor-button{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+}
+
+.top-banner{
+    width: 50%;
+    margin-bottom: 86px;
+}
+
+.top-banner img{
+    width: 90%;
+}
+
+
+/*----------- player section design---------*/
+.player-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 155px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 330px;
+    height: 474px;
+    box-shadow: 5px 5px 50px lightgray;
+    padding: 15px 15px 33px 15px;
+}
+
+.player .thumbnail img{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.player-name{
+    font-size: 28px;
+    font-weight: bold;
+    color: #18191F;
+    margin-bottom: 10px;
+}
+.player-description{
+    font-size: 16px;
+    font-weight: 500;
+    color: #6C6C6C;
+}
+
+
+/*-------------- bottom area design --------------*/
+.bottom-container{
+    display: flex;
+    padding-left: 156px;
+    padding-top: 49px;
+    margin-bottom: 70px;
+}
+
+.bottom-intro{
+    width: 40%;
+    margin-right: 66px;
+}
+.bottom-intro h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 72px;
+    margin-bottom: 8px;
+    color: #0A0826;
+}
+.bottom-intro p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    margin-right: 65px;
+    color: #6C6C6C;
+}
+
+.bottom-banner{
+    width: 50%;
+    margin-bottom: 86px;
+}
+
+.bottom-banner img{
+    width: 90%;
+}
+
+
+/*----------- footer design ------------*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 63px;
+}
+.footer-logo{
+    width: 483px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.footer-icons{
+    display: flex;
+    height: 32px;
+    width: 170px;
+    margin-bottom: 20px;
+
+}
+.icon{
+    width: 32px;
+    height: 32px;
+    margin-right: 14px;
+}
+
+.copyright{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+}
