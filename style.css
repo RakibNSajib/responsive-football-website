@@ -140,6 +140,7 @@ body{
 }
 
 
+
 /*----------- footer design ------------*/
 footer{
     display: flex;
@@ -176,11 +177,8 @@ footer{
 Media Query
 ============================= */
 
-@media screen and (max-width: 600px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
+@media screen and (max-width: 700px){
+    
     .top-container{
         display: block;
         padding-left: 0px;
@@ -191,25 +189,15 @@ Media Query
         width: 100%;
     }
     .top-intro h1{
-        font-size: 36px;
+        font-size: 16px;
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    .anchor-button{
-        text-decoration: none;
-        font-size: 16px;
-        font-weight: 500;
-        padding: 10px 24px;
-        color: #FFFFFF;
-        background-color: #E02C6D;
-    }
+
     
-    .anchor-button:hover{
-        background-color: orange;
-    }
     .top-banner{
         width: 100%;
-        margin-bottom: 86px;
+        margin-bottom: 2px;
     }
     
     .top-banner img{
@@ -217,15 +205,13 @@ Media Query
     }
     
     
-    /*----------- player section design---------*/
     .player-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         margin-bottom: 155px;
     }
     .players{
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-column-gap: 30px;
         grid-row-gap: 27px;
