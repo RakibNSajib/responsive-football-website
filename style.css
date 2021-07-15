@@ -28,11 +28,11 @@ body{
 }
 
 .top-intro:first-child:hover{
-    transform: scale(1.2);  
+    transform: scale(1.1);  
     transition: 1s;
 }
 
-.top-intro:last-child:hover{
+.top-banner:hover{
     transform: rotate(360deg);
     transition: 2s;
 }
@@ -188,7 +188,84 @@ Media Query
 @media only screen and (max-width:720px) {
 
     .top-container{
-        background-color: red;
+        display: block;
+        padding-left: 10px;
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+  
+    .top-intro{
+        width: 100%;
+        padding-left: 20px;
+        margin-bottom: 50px;
+    }
+    .top-intro h1{
+        font-size: 36px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    .top-banner{
+        width: 100%;
+        margin-bottom: 86px;
+    }
+    
+    .top-banner img{
+        width: 90%;
+    }
+    
+    
+    /*----------- player section design---------*/
+    
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    
+    /*-------------- bottom area design --------------*/
+    .bottom-container{
+        display: block;
+        padding-left: 20px;
+       
+        margin-bottom: 70px;
+    }
+    
+    .bottom-intro{
+        width: 100%;
+        margin-bottom: 24px;
 
     }
+    .bottom-intro h2{
+        font-size: 30px;
+    }
+    .bottom-intro p{
+        font-size: 16px;
+    }
+    
+    .bottom-banner{
+        width: 100%;
+   
+    }
+    
+    .bottom-banner img{
+        width: 90%;
+    }
+    
+    
+    
+    /*----------- footer design ------------*/
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 63px;
+    }
+    .footer-logo{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    
 }
